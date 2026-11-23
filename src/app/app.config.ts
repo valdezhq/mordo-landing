@@ -1,20 +1,48 @@
 import { ApplicationConfig, provideBrowserGlobalErrorListeners } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import { provideRouter, withInMemoryScrolling } from '@angular/router';
 import { routes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
-import { en_US, provideNzI18n } from 'ng-zorro-antd/i18n';
+import { pt_BR, provideNzI18n } from 'ng-zorro-antd/i18n';
 import { registerLocaleData } from '@angular/common';
-import en from '@angular/common/locales/en';
+import pt from '@angular/common/locales/pt';
 import { provideNzDateFnsAdapter } from 'ng-zorro-antd/core/time';
+import { provideTranslateService } from '@ngx-translate/core';
+import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
+import { provideHttpClient } from '@angular/common/http';
+import { provideNzIcons } from 'ng-zorro-antd/icon';
+import {
+  MenuOutline,
+  SunOutline,
+  MoonOutline,
+  GlobalOutline
+} from '@ant-design/icons-angular/icons';
 
-registerLocaleData(en);
+registerLocaleData(pt);
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
-    provideRouter(routes),
+    provideRouter(routes, withInMemoryScrolling({
+      scrollPositionRestoration: 'enabled',
+      anchorScrolling: 'enabled',
+    })),
     provideClientHydration(),
-    provideNzI18n(en_US),
+    provideNzI18n(pt_BR),
     provideNzDateFnsAdapter(),
+    provideTranslateService({
+      loader: provideTranslateHttpLoader({
+        prefix: '/i18n/',
+        suffix: '.json',
+      }),
+      fallbackLang: 'pt-BR',
+      lang: 'pt-BR'
+    }),
+    provideHttpClient(),
+    provideNzIcons([
+      MenuOutline,
+      SunOutline,
+      MoonOutline,
+      GlobalOutline
+    ])
   ],
 };
