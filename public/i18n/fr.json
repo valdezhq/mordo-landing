@@ -1,0 +1,23 @@
+{
+  "layout": {
+    "home": "Accueil",
+    "documentation": "Documentation",
+    "changelog": "Historique des versions",
+    "company": "Entreprise",
+    "product": "Produit",
+    "contactUs": "Nous contacter",
+    "privacyPolicy": "Politique de confidentialité",
+    "mordoText": "Mordô - Plateforme de gestion d'animalerie",
+    "contact": "Contact",
+    "footerAlt": "Logo du pied de page Mordô",
+    "navAlt": "Navigation principale",
+    "toggleNavAlt": "Afficher ou masquer le menu de navigation",
+    "mobileNavAlt": "Navigation mobile",
+    "copyright": "© 2026 EHorizon Solutions LTDA. Tous droits réservés.",
+    "switchToLightTheme": "Passer au thème clair",
+    "switchToDarkTheme": "Passer au thème sombre",
+    "themeToggle": "Changer de thème",
+    "changeLanguage": "Langue",
+    "langAlt": "Changer de langue"
+  }
+}

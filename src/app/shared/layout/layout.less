@@ -1,0 +1,206 @@
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nz-content {
+  flex: 1 0 auto;
+  background-color: var(--neutral-white);
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--neutral-white);
+  padding: 0 40px;
+  box-shadow: 0 2px 8px var(--shadow-sm);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.mordo-logo {
+  width: 36px;
+  height: 20px;
+  display: block;
+}
+
+.mordo-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--neutral-dark);
+  letter-spacing: 0.02em;
+}
+
+.nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav {
+  border-bottom: none;
+  line-height: 64px;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.contact-button {
+  display: flex;
+  align-items: center;
+}
+
+.contact-button button.contact-btn {
+  background-color: var(--primary-orange);
+  border-color: var(--primary-orange);
+  color: var(--neutral-white);
+  font-size: 1rem;
+  font-weight: 500;
+  height: 36px;
+  padding: 0 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.contact-button button.contact-btn:hover {
+  background-color: var(--secondary-peach);
+  border-color: var(--secondary-peach);
+}
+
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+  color: var(--neutral-dark);
+}
+
+.mobile-nav-overlay {
+  position: fixed;
+  inset: 64px 0 0 0;
+  background: var(--shadow-sm);
+  z-index: 999;
+}
+
+.mobile-nav {
+  position: fixed;
+  top: 64px;
+  left: 0;
+  right: 0;
+  background: var(--neutral-white);
+  box-shadow: 0 8px 16px var(--shadow-sm);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 16px 20px;
+}
+
+.mobile-nav-menu {
+  border-inline-end: none;
+}
+
+.mobile-contact-btn {
+  align-self: flex-start;
+  margin-top: 12px;
+}
+
+.lang-switch-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1000;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px var(--shadow-sm);
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 0 16px;
+  }
+
+  .nav,
+  .contact-button {
+    display: none;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+}
+
+/* footer */
+.footer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.footer-wrapper {
+  padding: 40px 0 20px 0;
+  background-color: var(--neutral-white);
+}
+
+.mordo-footer {
+  padding-right: 20px;
+}
+
+.mordo-text {
+  margin-top: 16px;
+  font-size: 0.95rem;
+  max-width: 260px;
+  line-height: 1.5;
+  color: var(--neutral-dark);
+}
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links li a {
+  color: var(--neutral-dark);
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: var(--secondary-peach);
+}
+
+.copyright {
+  text-align: center;
+  color: var(--neutral-dark);
+}

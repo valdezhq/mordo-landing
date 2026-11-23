@@ -1,1 +1,262 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-teal) var(--scrollbar-track);
+}
+
+:root {
+  // Primary Colors
+  --primary-orange: #FF6B35;
+  --primary-blue: #004E89;
+  --primary-teal: #1A7FA0;
+
+  // Secondary Colors
+  --secondary-light-blue: #4A90A4;
+  --secondary-peach: #FF9F7F;
+  --secondary-navy: #003459;
+
+  // Accent Colors
+  --accent-warm: #FFB84D;
+  --accent-cool: #70C1B3;
+
+  // Neutral Colors
+  --neutral-white: #FFFFFF;
+  --neutral-light: #F8F9FA;
+  --neutral-gray-100: #F1F3F5;
+  --neutral-gray-200: #E9ECEF;
+  --neutral-gray-300: #DEE2E6;
+  --neutral-gray-400: #CED4DA;
+  --neutral-gray-500: #ADB5BD;
+  --neutral-gray-600: #6C757D;
+  --neutral-gray-700: #495057;
+  --neutral-gray-800: #343A40;
+  --neutral-gray-900: #212529;
+  --neutral-dark: #1A1D23;
+
+  // Semantic Colors
+  --success: #28A745;
+  --warning: #FFC107;
+  --error: #DC3545;
+  --info: var(--primary-teal);
+
+  // Gradients
+  --gradient-primary: linear-gradient(135deg, var(--primary-orange) 0%, var(--primary-blue) 100%);
+  --gradient-secondary: linear-gradient(135deg, var(--primary-teal) 0%, var(--secondary-light-blue) 100%);
+  --gradient-accent: linear-gradient(135deg, var(--accent-warm) 0%, var(--secondary-peach) 100%);
+
+  // Shadows
+  --shadow-sm: 0 2px 4px rgba(0, 78, 137, 0.08);
+  --shadow-md: 0 4px 12px rgba(0, 78, 137, 0.12);
+  --shadow-lg: 0 12px 24px rgba(0, 78, 137, 0.15);
+  --shadow-xl: 0 20px 40px rgba(0, 78, 137, 0.18);
+
+  // Status Colors (for agenda)
+  --status-to-pickup: #FF6B35;
+  --status-scheduled: #4A90A4;
+  --status-in-progress: #FFB84D;
+  --status-completed: #28A745;
+  --status-waiting-to-go: #70C1B3;
+  --status-waiting-owner: #1A7FA0;
+  --status-cancelled: #6C757D;
+
+  --scrollbar-track:#F5F5F5;
+
+  ::selection {
+    color: #fff;
+    background: var(--primary-orange);
+  }
+
+  a:hover,
+  .step-description a,
+  .doc-card a {
+    color: var(--primary-orange) !important;
+
+    &:hover {
+      color: var(--primary-orange) !important;
+    }
+  }
+
+  .tencore-title { color: var(--neutral-dark); }
+  .footer-wrapper { background-color: var(--neutral-white); }
+
+  .sidebar {
+    .ant-menu-root.ant-menu-inline,
+    .ant-menu-sub.ant-menu-inline {
+      border-right: none !important;
+      background: var(--neutral-white) !important;
+    }
+
+    .ant-menu-item,
+    .ant-menu-submenu-title {
+      color: var(--neutral-dark) !important;
+      height: 38px !important;
+      line-height: 38px !important;
+      margin-top: 0 !important;
+      margin-bottom: 4px !important;
+    }
+
+    .ant-menu-item-selected {
+      background-color: transparent !important;
+      position: relative !important;
+      &::after {
+        content: '' !important;
+        display: block !important;
+        position: absolute !important;
+        border-right: 3px solid var(--primary-orange) !important;
+        opacity: 1 !important;
+        transform: scaleY(1) !important;
+      }
+    }
+
+    .ant-menu-item a,
+    .ant-menu-item-selected,
+    .ant-menu-item-selected a,
+    .ant-menu-item:hover,
+    .ant-menu-item:hover a {
+      color: var(--primary-orange) !important;
+    }
+
+    .ant-menu-submenu-selected > .ant-menu-submenu-title,
+    .ant-menu-submenu-open > .ant-menu-submenu-title, {
+      color: var(--neutral-dark) !important;
+    }
+
+    .ant-menu-submenu-title:hover {
+      color: var(--primary-orange) !important;
+    }
+
+    .ant-menu-submenu-title {
+      .ant-menu-submenu-arrow,
+      &:hover .ant-menu-submenu-arrow {
+        color: var(--primary-orange) !important;
+
+        &::before, &::after {
+          background: var(--primary-orange) !important;
+        }
+
+        svg, .anticon, .anticon svg {
+          fill: var(--primary-orange) !important;
+          color: var(--primary-orange) !important;
+        }
+      }
+    }
+
+    .ant-menu-submenu-open > .ant-menu-submenu-title .ant-menu-submenu-arrow,
+    .ant-menu-submenu-selected > .ant-menu-submenu-title .ant-menu-submenu-arrow {
+      color: var(--primary-orange) !important;
+    }
+  }
+
+  .header-nav.ant-menu-light {
+    .ant-menu-item-selected,
+    .ant-menu-item-selected a,
+    .ant-menu-item:hover,
+    .ant-menu-item:hover a {
+      color: var(--primary-orange) !important;
+    }
+
+    .ant-menu-item-selected::after,
+    .ant-menu-item:hover::after {
+      border-bottom-color: var(--primary-orange) !important;
+    }
+  }
+
+  .mobile-nav {
+    background-color: var(--neutral-light);
+
+    .mobile-nav-menu.ant-menu-light {
+      .ant-menu-item-selected,
+      .ant-menu-item-selected a,
+      .ant-menu-item:hover,
+      .ant-menu-item:hover a {
+        color: var(--primary-orange) !important;
+      }
+
+      .ant-menu-item-selected::after,
+      .ant-menu-item:hover::after {
+        border-bottom-color: var(--primary-orange) !important;
+      }
+    }
+
+    .mobile-contact-btn {
+      background-color: var(--primary-orange) !important;
+      border-color: var(--primary-orange) !important;
+      color: var(--neutral-white) !important;
+
+      &:hover, &:focus {
+        background-color: var(--secondary-peach) !important;
+        border-color: var(--secondary-peach) !important;
+      }
+    }
+  }
+
+  .lang-switch-btn {
+    background-color: var(--neutral-light) !important;
+    border-color: var(--neutral-gray-300) !important;
+    color: var(--neutral-dark) !important;
+
+    &:hover, &:focus {
+      color: var(--primary-orange) !important;
+      border-color: var(--primary-orange) !important;
+    }
+  }
+
+  .contents-table {
+    .ant-anchor-link-title-active,
+    .ant-anchor-link-active > .ant-anchor-link-title,
+    .ant-anchor-link-active .ant-anchor-link-title {
+      color: var(--primary-orange) !important;
+    }
+  }
+
+  nz-switch {
+    .ant-switch:not(.ant-switch-checked) {
+      background-color: #6ac6e0 !important;
+    }
+    .ant-switch-checked {
+      background-color: #002C8C !important;
+    }
+  }
+
+  ::ng-deep {
+    ::-webkit-scrollbar {
+      width: 4px;
+      height: 4px;
+    }
+    ::-webkit-scrollbar-button {
+      display: none;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--scrollbar-track);
+      border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: var(--primary-orange);
+      border-radius: 10px;
+
+      &:hover { background-color: #53daa2 !important; }
+      &:active { background-color: #49b88a !important; }
+    }
+
+    *:hover::-webkit-scrollbar-track {
+      background: var(--scrollbar-track) !important;
+    }
+    *:hover::-webkit-scrollbar-thumb {
+      background-color: var(--primary-orange) !important;
+    }
+  }
+
+  img[nz-image],
+  .ant-image-img {
+    cursor: pointer;
+    border-radius: 6px;
+    transition: transform 0.2s ease, filter 0.2s ease;
+
+    &:hover {
+      filter: brightness(1.03);
+      transform: scale(1.01);
+    }
+  }
+
+}

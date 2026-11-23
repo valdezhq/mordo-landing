@@ -1,0 +1,23 @@
+{
+  "layout": {
+    "home": "Home",
+    "documentation": "Documentation",
+    "changelog": "Changelog",
+    "company": "Company",
+    "product": "Product",
+    "contactUs": "Contact Us",
+    "privacyPolicy": "Privacy Policy",
+    "mordoText": "Mordô - A Pet Shop Management Platform",
+    "contact": "Contact",
+    "footerAlt": "Mordô footer logo",
+    "navAlt": "Main navigation",
+    "toggleNavAlt": "Toggle navigation menu",
+    "mobileNavAlt": "Mobile navigation",
+    "copyright": "© 2026 EHorizon Solutions LTDA. All rights reserved.",
+    "switchToLightTheme": "Switch to light theme",
+    "switchToDarkTheme": "Switch to dark theme",
+    "themeToggle": "Change theme",
+    "changeLanguage": "Language",
+    "langAlt": "Change language"
+  }
+}
