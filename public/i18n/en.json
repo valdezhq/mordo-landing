@@ -26,6 +26,24 @@
     "changeLanguage": "Language",
     "langAlt": "Change language"
   },
+  "row": {
+    "heading": "Features",
+    "subtext": "Discover everything the platform has to offer",
+    "btnDocs": "View Documentation",
+    "btnChangelog": "See What's New",
+    "feature1": {
+      "title": "Complete Record Management",
+      "description": "Add and manage customers, pets, products, and services in one place"
+    },
+    "feature2": {
+      "title": "Access Control",
+      "description": "Custom permission levels for customers and staff"
+    },
+    "feature3": {
+      "title": "Pet Vaccination Records",
+      "description": "Log and track vaccinations, deworming, and parasite treatments"
+    }
+  },
   "grid": {
     "heading": "Efficient Management in Every Detail",
     "description": "Everything your pet shop needs",

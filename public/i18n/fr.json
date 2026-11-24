@@ -26,6 +26,24 @@
     "changeLanguage": "Langue",
     "langAlt": "Changer de langue"
   },
+  "row": {
+    "heading": "Fonctionnalités",
+    "subtext": "Découvrez tout ce que la plateforme a à offrir",
+    "btnDocs": "Voir la documentation",
+    "btnChangelog": "Voir les nouveautés",
+    "feature1": {
+      "title": "Gestion complète des fiches",
+      "description": "Enregistrez et gérez vos clients, animaux, produits et services au même endroit"
+    },
+    "feature2": {
+      "title": "Contrôle d'accès",
+      "description": "Niveaux d'autorisation personnalisés pour vos clients et vos employés"
+    },
+    "feature3": {
+      "title": "Carnet de vaccination des animaux",
+      "description": "Enregistrez et suivez l'historique des vaccins, vermifuges et antiparasitaires"
+    }
+  },
   "grid": {
     "heading": "Une gestion efficace dans les moindres détails",
     "description": "Tout ce dont votre animalerie a besoin",

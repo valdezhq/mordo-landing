@@ -1,0 +1,50 @@
+<section id="row-section" class="row-section">
+  <h3 class="row-heading">{{ 'row.heading' | translate }}</h3>
+
+  <div class="row-container">
+    <div nz-row [nzGutter]="[80, 24]" class="row-features">
+
+      <div nz-col [nzXs]="24" [nzMd]="8">
+        <div class="feature-card">
+          <h3 class="feature-title">{{ 'row.feature1.title' | translate }}</h3>
+          <div class="icon-wrapper">
+            <nz-icon aria-hidden="true" nzType="team" nzTheme="outline" />
+          </div>
+          <p class="feature-description">{{ 'row.feature1.description' | translate }}</p>
+        </div>
+      </div>
+
+      <div nz-col [nzXs]="24" [nzMd]="8">
+        <div class="feature-card">
+          <h3 class="feature-title">{{ 'row.feature2.title' | translate }}</h3>
+          <div class="icon-wrapper">
+            <nz-icon aria-hidden="true" nzType="file-text" nzTheme="outline" />
+          </div>
+          <p class="feature-description">{{ 'row.feature2.description' | translate }}</p>
+        </div>
+      </div>
+
+      <div nz-col [nzXs]="24" [nzMd]="8">
+        <div class="feature-card">
+          <h3 class="feature-title">{{ 'row.feature3.title' | translate }}</h3>
+          <div class="icon-wrapper">
+            <nz-icon aria-hidden="true" nzType="file-search" nzTheme="outline" />
+          </div>
+          <p class="feature-description">{{ 'row.feature3.description' | translate }}</p>
+        </div>
+      </div>
+
+    </div>
+    <p class="row-subtext">{{ 'row.subtext' | translate }}</p>
+
+    <div class="row-buttons">
+      <button nzButton nzType="primary" class="docs-btn" routerLink="/documentation">
+        {{ 'row.btnDocs' | translate }}
+      </button>
+      <button nzButton nzType="default" class="changelog-btn" routerLink="/changelog">
+        {{ 'row.btnChangelog' | translate }}
+      </button>
+    </div>
+
+  </div>
+</section>

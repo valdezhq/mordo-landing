@@ -26,6 +26,24 @@
     "changeLanguage": "Idioma",
     "langAlt": "Mudar idioma"
   },
+  "row": {
+    "heading": "Funcionalidades",
+    "subtext": "Descubra tudo que a plataforma oferece",
+    "btnDocs": "Ver Documentação",
+    "btnChangelog": "Ver Novidades",
+    "feature1": {
+      "title": "Gestão completa de cadastros",
+      "description": "Cadastre e gerencie clientes, pets, produtos e serviços em um só lugar"
+    },
+    "feature2": {
+      "title": "Controle de Acesso",
+      "description": "Níveis de permissão personalizados para clientes e funcionários"
+    },
+    "feature3": {
+      "title": "Carteira de vacinação de pets",
+      "description": "Registre e acompanhe o histórico de vacinas, vermifugação e antiparasitários"
+    }
+  },
   "grid": {
     "heading": "Gestão Eficiente em Cada Detalhe",
     "description": "Tudo que seu Pet Shop precisa",

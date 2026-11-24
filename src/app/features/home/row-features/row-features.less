@@ -1,0 +1,118 @@
+.row-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px 70px 20px;
+  background-color: var(--neutral-light);
+}
+
+.row-heading {
+  font-size: 2.25rem;
+  font-weight: 600;
+  color: var(--neutral-dark);
+  margin-bottom: 40px;
+}
+
+.row-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-features {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.feature-card {
+  background: var(--neutral-light);
+  border-radius: 12px;
+  border: 1px solid var(--neutral-gray-300);
+  box-shadow: 0px 4px 6px var(--shadow-sm);
+  padding: 24px 20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0px 6px 12px var(--shadow-sm);
+}
+
+.feature-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--neutral-dark);
+  margin-bottom: 8px;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 16px 0;
+  font-size: 4rem;
+  color: var(--neutral-dark);
+}
+
+.feature-description {
+  font-size: 0.9rem;
+  color: var(--neutral-dark);
+  line-height: 1.5;
+  margin: 0 auto 8px auto;
+  max-width: 250px;
+}
+
+.row-subtext {
+  font-size: 1.1rem;
+  color: var(--neutral-gray-800);
+  max-width: 600px;
+  margin: 40px auto 40px auto;
+}
+
+.row-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.docs-btn {
+  background-color: var(--primary-orange);
+  border: 1px solid var(--primary-orange);
+  color: var(--neutral-white);
+  font-size: 1rem;
+  font-weight: 600;
+  height: 44px;
+  padding: 0 32px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 78, 137, 0.18);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.docs-btn:hover {
+  background-color: var(--secondary-peach);
+  border: 1px solid var(--secondary-peach);
+}
+
+.changelog-btn {
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-shadow: 0 4px 12px rgba(0, 78, 137, 0.18);
+  color: var(--neutral-dark);
+  font-size: 1rem;
+  font-weight: 500;
+  height: 42px;
+  padding: 0 32px;
+  border-radius: 10px;
+  cursor: pointer;
+}
