@@ -1,0 +1,110 @@
+<section id="contact-section" class="contact-section" aria-labelledby="contact-heading">
+  
+  <h2 id="contact-heading" class="contact-heading">{{ 'contact.title' | translate }}</h2>
+  <p class="contact-description">
+    {{ 'contact.description' | translate }}
+  </p>
+
+  <form nz-form [formGroup]="form" (ngSubmit)="onSubmit()" class="form">
+    <div class="form-grid">
+
+      <nz-form-item class="form-group">
+        <nz-form-control [nzErrorTip]="'contact.error.nameRequired' | translate">
+          <input
+            nz-input
+            formControlName="name"
+            class="contact-input"
+            [placeholder]="'contact.name' | translate"
+            [attr.aria-label]="'contact.name' | translate"
+          />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item class="form-group">
+        <nz-form-control [nzErrorTip]="emailErrorTpl">
+          <input
+            nz-input
+            type="email"
+            formControlName="email"
+            class="contact-input"
+            [placeholder]="'contact.email' | translate"
+            [attr.aria-label]="'contact.email' | translate"
+          />
+        </nz-form-control>
+        <ng-template #emailErrorTpl let-control>
+          @if (control.hasError('required')) {
+            {{ 'contact.error.emailRequired' | translate }}
+          } @else if (control.hasError('email')) {
+            {{ 'contact.error.emailInvalid' | translate }}
+          }
+        </ng-template>
+      </nz-form-item>
+
+      <nz-form-item class="form-group">
+        <nz-form-control [nzErrorTip]="'contact.error.phoneRequired' | translate">
+          <input
+            nz-input
+            type="tel"
+            formControlName="phone"
+            class="contact-input"
+            [placeholder]="'contact.phone' | translate"
+            [attr.aria-label]="'contact.phone' | translate"
+          />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item class="form-group">
+        <nz-form-control [nzErrorTip]="'contact.error.companyRequired' | translate">
+          <input
+            nz-input
+            formControlName="company"
+            class="contact-input"
+            [placeholder]="'contact.company' | translate"
+            [attr.aria-label]="'contact.company' | translate"
+          />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item class="form-group-txt">
+        <nz-form-control [nzErrorTip]="'contact.error.messageRequired' | translate">
+          <textarea
+            nz-input
+            formControlName="message"
+            class="contact-input"
+            [placeholder]="'contact.message' | translate"
+            [attr.aria-label]="'contact.message' | translate"
+          ></textarea>
+          <div class="honeypot" aria-hidden="true">
+            <input
+              type="text"
+              formControlName="website"
+              tabindex="-1"
+              autocomplete="off"
+            />
+          </div>
+        </nz-form-control>
+      </nz-form-item>
+
+    </div>
+
+    <div class="form-footer">
+      <div class="form-btn-wrapper">
+        <button
+          nz-button
+          nzType="primary"
+          type="submit"
+          class="contact-btn"
+          [nzLoading]="isSubmitting"
+        >
+          {{ 'contact.submitBtn' | translate }}
+        </button>
+      </div>
+    </div>
+
+    @if (submitError) {
+      <div class="form-error-wrapper">
+        <nz-alert nzType="error" [nzMessage]="'contact.formError' | translate"></nz-alert>
+      </div>
+    }
+  </form>
+</section>

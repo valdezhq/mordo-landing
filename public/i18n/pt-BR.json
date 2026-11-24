@@ -53,5 +53,25 @@
       "title": "Otimizado para Petcare",
       "description": "Voltado às rotinas de Banho e Tosa, Day Care e serviços veterinários."
     }
+  },
+  "contact": {
+    "title": "Evolua o seu Pet Shop com o Mordô",
+    "description": "Aproveite ao máximo tudo o que o Mordô tem a oferecer",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefone",
+    "company": "Empresa",
+    "message": "Como podemos ajudar?",
+    "submitBtn": "Agende uma Demo",
+    "formSuccess": "Obrigado pelo contato! Retornaremos em breve.",
+    "formError": "Não foi possível enviar sua mensagem. Tente novamente.",
+    "error": {
+      "nameRequired": "Por favor, informe seu nome",
+      "emailRequired": "Por favor, informe seu email",
+      "phoneRequired": "Por favor, informe seu telefone",
+      "companyRequired": "Por favor, informe sua empresa",
+      "messageRequired": "Por favor, escreva sua mensagem",
+      "emailInvalid": "Por favor, informe um email válido"
+    }
   }
 }

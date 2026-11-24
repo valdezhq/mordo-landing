@@ -53,5 +53,25 @@
       "title": "Pensé pour les soins animaliers",
       "description": "Adapté aux routines de toilettage, de garderie et de soins vétérinaires."
     }
+  },
+  "contact": {
+    "title": "Faites évoluer votre animalerie avec Mordô",
+    "description": "Profitez pleinement de tout ce que Mordô a à offrir",
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "company": "Entreprise",
+    "message": "Comment pouvons-nous vous aider ?",
+    "submitBtn": "Planifier une démo",
+    "formSuccess": "Merci de nous avoir contactés ! Nous reviendrons vers vous rapidement.",
+    "formError": "Impossible d'envoyer votre message. Veuillez réessayer.",
+    "error": {
+      "nameRequired": "Veuillez saisir votre nom",
+      "emailRequired": "Veuillez saisir votre adresse e-mail",
+      "phoneRequired": "Veuillez saisir votre numéro de téléphone",
+      "companyRequired": "Veuillez saisir le nom de votre entreprise",
+      "messageRequired": "Veuillez saisir votre message",
+      "emailInvalid": "Veuillez saisir une adresse e-mail valide"
+    }
   }
 }

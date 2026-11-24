@@ -53,5 +53,25 @@
       "title": "Built for Pet Care",
       "description": "Tailored to grooming, daycare, and veterinary routines."
     }
+  },
+  "contact": {
+    "title": "Level Up your Pet Shop with Mordô",
+    "description": "Make the most of everything Mordô has to offer",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "message": "How can we help?",
+    "submitBtn": "Book a Demo",
+    "formSuccess": "Thanks for reaching out! We will get back to you soon.",
+    "formError": "There was an error submitting your message. Please try again.",
+    "error": {
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "phoneRequired": "Please enter your phone",
+      "companyRequired": "Please enter your company",
+      "messageRequired": "Please enter your message",
+      "emailInvalid": "Please enter a valid email"
+    }
   }
 }
