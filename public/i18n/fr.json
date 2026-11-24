@@ -25,5 +25,33 @@
     "themeToggle": "Changer de thème",
     "changeLanguage": "Langue",
     "langAlt": "Changer de langue"
+  },
+  "grid": {
+    "heading": "Une gestion efficace dans les moindres détails",
+    "description": "Tout ce dont votre animalerie a besoin",
+    "feature1": {
+      "title": "Simple d'utilisation",
+      "description": "Une interface intuitive pour simplifier le quotidien de votre équipe."
+    },
+    "feature2": {
+      "title": "Gestion multi-établissements",
+      "description": "Pilotez les services disponibles sur plusieurs boutiques au même endroit."
+    },
+    "feature3": {
+      "title": "Suivi des commissions",
+      "description": "Automatisez et suivez les rémunérations de votre équipe."
+    },
+    "feature4": {
+      "title": "Programme de fidélité",
+      "description": "Récompensez vos clients réguliers avec des points et des avantages."
+    },
+    "feature5": {
+      "title": "Gestion des stocks",
+      "description": "Suivez les entrées, les sorties et les niveaux de vos produits."
+    },
+    "feature6": {
+      "title": "Pensé pour les soins animaliers",
+      "description": "Adapté aux routines de toilettage, de garderie et de soins vétérinaires."
+    }
   }
 }

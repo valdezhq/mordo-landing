@@ -25,5 +25,33 @@
     "themeToggle": "Mudar tema",
     "changeLanguage": "Idioma",
     "langAlt": "Mudar idioma"
+  },
+  "grid": {
+    "heading": "Gestão Eficiente em Cada Detalhe",
+    "description": "Tudo que seu Pet Shop precisa",
+    "feature1": {
+      "title": "Fácil de Usar",
+      "description": "Design intuitivo para auxiliar nas atividades da sua equipe."
+    },
+    "feature2": {
+      "title": "Gestão Cross-Tenant",
+      "description": "Administre os serviços disponíveis para múltiplas lojas em um só lugar."
+    },
+    "feature3": {
+      "title": "Controle de Comissões",
+      "description": "Gerencie os repasses da sua equipe automaticamente."
+    },
+    "feature4": {
+      "title": "Programa de Fidelidade",
+      "description": "Recompense clientes frequentes com pontos e benefícios."
+    },
+    "feature5": {
+      "title": "Gerenciamento de Estoque",
+      "description": "Monitore as entradas, saídas e quantidade de produtos."
+    },
+    "feature6": {
+      "title": "Otimizado para Petcare",
+      "description": "Voltado às rotinas de Banho e Tosa, Day Care e serviços veterinários."
+    }
   }
 }

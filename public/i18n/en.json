@@ -25,5 +25,33 @@
     "themeToggle": "Change theme",
     "changeLanguage": "Language",
     "langAlt": "Change language"
+  },
+  "grid": {
+    "heading": "Efficient Management in Every Detail",
+    "description": "Everything your pet shop needs",
+    "feature1": {
+      "title": "Easy to Use",
+      "description": "Intuitive design to streamline your team's daily tasks."
+    },
+    "feature2": {
+      "title": "Cross-Tenant Management",
+      "description": "Manage available services across multiple stores in one place."
+    },
+    "feature3": {
+      "title": "Commission Tracking",
+      "description": "Automate and manage your team's payouts."
+    },
+    "feature4": {
+      "title": "Loyalty Program",
+      "description": "Reward repeat customers with points and perks."
+    },
+    "feature5": {
+      "title": "Inventory Management",
+      "description": "Monitor incoming and outgoing stock and product levels."
+    },
+    "feature6": {
+      "title": "Built for Pet Care",
+      "description": "Tailored to grooming, daycare, and veterinary routines."
+    }
   }
 }
