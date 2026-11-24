@@ -14,7 +14,13 @@ import {
   MenuOutline,
   SunOutline,
   MoonOutline,
-  GlobalOutline
+  GlobalOutline,
+  CodeOutline,
+  ThunderboltOutline,
+  LockOutline,
+  KeyOutline,
+  DatabaseOutline,
+  ClusterOutline
 } from '@ant-design/icons-angular/icons';
 
 registerLocaleData(pt);
@@ -42,7 +48,13 @@ export const appConfig: ApplicationConfig = {
       MenuOutline,
       SunOutline,
       MoonOutline,
-      GlobalOutline
+      GlobalOutline,
+      CodeOutline,
+      ThunderboltOutline,
+      LockOutline,
+      KeyOutline,
+      DatabaseOutline,
+      ClusterOutline
     ])
   ],
 };
