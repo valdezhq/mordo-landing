@@ -1,4 +1,10 @@
 {
+  "hero": {
+    "changelogTitle": "Primeira Demo",
+    "text": "Uma experiência <strong>completa e personalizável</strong> para gerenciar o seu Pet Shop",
+    "getStarted": "Comece Aqui",
+    "learnMore": "Saiba Mais"
+  },
   "layout": {
     "home": "Início",
     "documentation": "Documentação",

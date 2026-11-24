@@ -1,0 +1,127 @@
+.hero-section {
+  display: grid;
+  align-items: center;
+  row-gap: 24px;
+  padding: 120px 40px 80px;
+  margin: auto 20px auto 20px;
+  background-color: var(--neutral-white);
+  position: relative;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  max-width: 700px;
+}
+
+.version-badge {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changelog-badge {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  gap: 10px;
+  padding: 4px 16px 4px 6px;
+  border: 1px solid var(--neutral-gray-300);
+  border-radius: 10px;
+  font-size: 0.85rem;
+  color: var(--neutral-dark);
+  text-decoration: none;
+  margin: 0 0 24px 0;
+  transition: border-color 0.2s ease;
+}
+
+.changelog-badge:hover {
+  border-color: var(--primary-orange);
+}
+
+.version-tag {
+  background-color: var(--secondary-navy);
+  color: var(--neutral-white);
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+.version-title {
+  font-weight: 500;
+  color: var(--neutral-dark);
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 35px;
+  line-height: 1;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 700px;
+  margin: 0 0 35px 0;
+  color: var(--neutral-gray-800);
+}
+
+.hero-buttons {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.get-started-btn {
+  background-color: var(--primary-orange);
+  border: 1px solid var(--primary-orange);
+  color: var(--neutral-white);
+  font-size: 1rem;
+  font-weight: 600;
+  height: 40px;
+  padding: 0 32px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.get-started-btn:hover {
+  background-color: var(--secondary-peach);
+  border: 1px solid var(--secondary-peach);
+}
+
+.learn-more-btn {
+  background-color: transparent;
+  text-decoration: none;
+  border: 1px solid var(--neutral-gray-300);
+  color: var(--neutral-dark);
+  font-size: 1rem;
+  font-weight: 500;
+  height: 40px;
+  padding: 0 26px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.learn-more-btn:hover {
+  border-color: var(--primary-orange);
+}
+
+@media (max-width: 992px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+}

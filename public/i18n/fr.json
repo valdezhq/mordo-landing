@@ -1,4 +1,10 @@
 {
+  "hero": {
+    "changelogTitle": "Première démo",
+    "text": "Une solution <strong>complète et personnalisable</strong> pour gérer votre pet shop",
+    "getStarted": "Commencer",
+    "learnMore": "En savoir plus"
+  },
   "layout": {
     "home": "Accueil",
     "documentation": "Documentation",
