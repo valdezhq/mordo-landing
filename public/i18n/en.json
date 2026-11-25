@@ -26,6 +26,42 @@
     "changeLanguage": "Language",
     "langAlt": "Change language"
   },
+  "cards": {
+    "heading": "What Sets Us Apart",
+    "description": "Explore the services and features we offer",
+    "card1": {
+      "heading": "Fully Modular",
+      "description": "Customize the system to fit your pet shop's needs",
+      "feature1": "Choose the right modules for your workflow",
+      "feature2": "Pay only for the services you use",
+      "feature3": "Adapt the system as your business evolves",
+      "imgAlt": "Mordô welcome screen"
+    },
+    "card2": {
+      "heading": "Appointment Scheduling",
+      "description": "Schedule recurring services with automatic system renewals",
+      "feature1": "Recurring service bookings",
+      "feature2": "List, calendar, and interactive card views",
+      "feature3": "Automatic system updates when moving cards across statuses",
+      "vidAlt": "Video demonstrating service scheduling navigation"
+    },
+    "card3": {
+      "heading": "Pet Taxi",
+      "description": "Track and manage your pet taxi services",
+      "feature1": "Driver management and trip tracking",
+      "feature2": "Monitor ride statuses in real time",
+      "feature3": "Google Maps integration to easily locate customers",
+      "imgAlt": "Image of a dog inside a car"
+    },
+    "card4": {
+      "heading": "Financial Management",
+      "description": "Manage your pet shop's finances and automate daily routines",
+      "feature1": "Cash flow tracking",
+      "feature2": "Sales invoice generation",
+      "feature3": "Monthly income and expense exports",
+      "imgAlt": "Mordô financial module screen"
+    }
+  },
   "row": {
     "heading": "Features",
     "subtext": "Discover everything the platform has to offer",

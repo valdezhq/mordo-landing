@@ -1,0 +1,143 @@
+<section id="cards-section" class="cards-section">
+  <h2 class="cards-heading">{{ 'cards.heading' | translate }}</h2>
+  <p class="cards-description">{{ 'cards.description' | translate }}</p>
+
+  <!-- first row -->
+  <div class="cards-container">
+    <div nz-row [nzGutter]="[48, 24]" nzAlign="middle" class="feature-row">
+      <div nz-col [nzXs]="24" [nzMd]="12" class="text-col">
+        <h3 class="card-heading">{{ 'cards.card1.heading' | translate }}</h3>
+        <p class="card-subtitle">{{ 'cards.card1.description' | translate }}</p>
+
+        <ul class="feature-list">
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card1.feature1' | translate }}</span>
+          </li>
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card1.feature2' | translate }}</span>
+          </li>
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card1.feature3' | translate }}</span>
+          </li>
+        </ul>
+      </div>
+
+      <div nz-col [nzXs]="24" [nzMd]="12">
+        <nz-card [nzBordered]="true" [nzBodyStyle]="{'padding': '12px'}" class="feature-card teal-shadow">
+          <img
+            appZoom
+            ngSrc="assets/home/mordo-welcome.png"
+            alt="{{ 'cards.card1.imgAlt' | translate }}"
+            width="496"
+            height="284" />
+        </nz-card>
+      </div>
+    </div>
+
+    <!-- second row -->
+    <div nz-row [nzGutter]="[48, 24]" nzAlign="middle" class="feature-row middle-row">
+      <div nz-col [nzXs]="24" [nzMd]="12" class="text-col">
+        <h3 class="card-heading">{{ 'cards.card2.heading' | translate }}</h3>
+        <p class="card-subtitle">{{ 'cards.card2.description' | translate }}</p>
+
+        <ul class="feature-list">
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card2.feature1' | translate }}</span>
+          </li>
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card2.feature2' | translate }}</span>
+          </li>
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card2.feature3' | translate }}</span>
+          </li>
+        </ul>
+      </div>
+      
+      <div nz-col [nzXs]="24" [nzMd]="12">
+        <nz-card [nzBordered]="true" [nzBodyStyle]="{'padding': '0'}" class="feature-card orange-shadow">
+          <video
+            src="assets/home/mordo-schedule.mp4"
+            [attr.aria-label]="'cards.card2.vidAlt' | translate"
+            controls
+            autoplay
+            loop
+          ></video>
+        </nz-card>
+      </div>
+    </div>
+
+    <!-- third row -->
+    <div nz-row [nzGutter]="[48, 24]" nzAlign="middle" class="feature-row">
+      <div nz-col [nzXs]="24" [nzMd]="12" class="text-col">
+        <h3 class="card-heading">{{ 'cards.card3.heading' | translate }}</h3>
+        <p class="card-subtitle">{{ 'cards.card3.description' | translate }}</p>
+
+        <ul class="feature-list">
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card3.feature1' | translate }}</span>
+          </li>
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card3.feature2' | translate }}</span>
+          </li>
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card3.feature3' | translate }}</span>
+          </li>
+        </ul>
+      </div>
+
+      <div nz-col [nzXs]="24" [nzMd]="12">
+        <nz-card [nzBordered]="true" [nzBodyStyle]="{'padding': '0'}" class="feature-card teal-shadow">
+          <img
+            appZoom
+            ngSrc="assets/home/dog.png"
+            alt="{{ 'cards.card3.imgAlt' | translate }}"
+            width="496"
+            height="284" />
+        </nz-card>
+      </div>
+    </div>
+
+    <!-- fourth row -->
+    <div nz-row [nzGutter]="[48, 24]" nzAlign="middle" class="feature-row middle-row">
+      <div nz-col [nzXs]="24" [nzMd]="12" class="text-col">
+        <h3 class="card-heading">{{ 'cards.card4.heading' | translate }}</h3>
+        <p class="card-subtitle">{{ 'cards.card4.description' | translate }}</p>
+
+        <ul class="feature-list">
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card4.feature1' | translate }}</span>
+          </li>
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card4.feature2' | translate }}</span>
+          </li>
+          <li>
+            <img src="assets/home/mordo-outline.svg" alt="" width="16" height="16" class="list-icon" aria-hidden="true" />
+            <span>{{ 'cards.card4.feature3' | translate }}</span>
+          </li>
+        </ul>
+      </div>
+
+      <div nz-col [nzXs]="24" [nzMd]="12">
+        <nz-card [nzBordered]="true" [nzBodyStyle]="{'padding': '12px'}" class="feature-card orange-shadow">
+          <img
+            appZoom
+            ngSrc="assets/home/mordo-finances.png"
+            alt="{{ 'cards.card4.imgAlt' | translate }}"
+            width="496"
+            height="284" />
+        </nz-card>
+      </div>
+    </div>
+  </div>
+</section>

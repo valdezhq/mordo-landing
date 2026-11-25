@@ -26,6 +26,42 @@
     "changeLanguage": "Idioma",
     "langAlt": "Mudar idioma"
   },
+  "cards": {
+    "heading": "Nossos Diferenciais",
+    "description": "Conheça quais serviços ofertamos",
+    "card1": {
+      "heading": "Totalmente modularizável",
+      "description": "Personalize o sistema de acordo com as necessidades do seu Pet Shop",
+      "feature1": "Escolha os módulos adequados ao seu uso",
+      "feature2": "Pague apenas pelos serviços que utiliza",
+      "feature3": "Modifique o sistema conforme suas necessidades",
+      "imgAlt": "Tela de boas vindas do Mordô"
+    },
+    "card2": {
+      "heading": "Controle de Agendamento",
+      "description": "Agende serviços recorrentes com renovação automática pelo sistema",
+      "feature1": "Agendamento recorrente de serviços",
+      "feature2": "Visualização em lista, calendário e cards interativos",
+      "feature3": "Atualização automática do sistema ao mover cards para diferentes status",
+      "vidAlt": "Vídeo mostrando a navegação de agendamento de serviços"
+    },
+    "card3": {
+      "heading": "Táxi Pet",
+      "description": "Acompanhe e gerencie o andamento de serviços de Táxi Pet",
+      "feature1": "Gestão de motoristas e controle das viagens",
+      "feature2": "Acompanhe o status das viagens em tempo real",
+      "feature3": "Endereços com implementação de Google Maps para facilitar a localização de clientes",
+      "imgAlt": "Imagem de um cachorro em um carro"
+    },
+    "card4": {
+      "heading": "Controle Financeiro",
+      "description": "Gerencie as finanças do seu Pet Shop e automatize rotinas financeiras",
+      "feature1": "Controle de fluxo de caixa",
+      "feature2": "Emissão de nota fiscal de vendas",
+      "feature3": "Exportação das entradas e saídas do mês",
+      "imgAlt": "Tela de módulo financeiro do Mordô"
+    }
+  },
   "row": {
     "heading": "Funcionalidades",
     "subtext": "Descubra tudo que a plataforma oferece",

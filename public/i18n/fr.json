@@ -26,6 +26,42 @@
     "changeLanguage": "Langue",
     "langAlt": "Changer de langue"
   },
+  "cards": {
+    "heading": "Nos atouts",
+    "description": "Découvrez les services que nous proposons",
+    "card1": {
+      "heading": "Entièrement modulaire",
+      "description": "Personnalisez le système selon les besoins de votre animalerie",
+      "feature1": "Choisissez les modules adaptés à votre activité",
+      "feature2": "Payez uniquement pour les services que vous utilisez",
+      "feature3": "Faites évoluer la plateforme au rythme de votre activité",
+      "imgAlt": "Écran d'accueil de Mordô"
+    },
+    "card2": {
+      "heading": "Gestion des rendez-vous",
+      "description": "Programmez des services récurrents avec renouvellement automatique",
+      "feature1": "Planification de services récurrents",
+      "feature2": "Affichage en liste, calendrier et cartes interactives",
+      "feature3": "Mise à jour automatique lors du déplacement des cartes d'un statut à l'autre",
+      "vidAlt": "Vidéo présentant la navigation dans le module de planification des services"
+    },
+    "card3": {
+      "heading": "Taxi animalier",
+      "description": "Suivez et gérez l'avancement de vos courses de taxi animalier",
+      "feature1": "Gestion des chauffeurs et contrôle des trajets",
+      "feature2": "Statut des courses en temps réel",
+      "feature3": "Intégration de Google Maps pour localiser facilement vos clients",
+      "imgAlt": "Image d'un chien à bord d'une voiture"
+    },
+    "card4": {
+      "heading": "Gestion financière",
+      "description": "Pilotez les finances de votre animalerie et automatisez vos routines comptables",
+      "feature1": "Suivi des flux de trésorerie",
+      "feature2": "Émission de factures de vente",
+      "feature3": "Exportation des entrées et sorties du mois",
+      "imgAlt": "Écran du module financier de Mordô"
+    }
+  },
   "row": {
     "heading": "Fonctionnalités",
     "subtext": "Découvrez tout ce que la plateforme a à offrir",
