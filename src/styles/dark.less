@@ -1,0 +1,76 @@
+@import '../../node_modules/ng-zorro-antd/ng-zorro-antd.dark.less';
+
+@primary-color: #FF6B35;
+@primary-color-hover: #FF9F7F;
+
+:root {
+  // NG-ZORRO / Ant Design primary overrides
+  --ant-primary-color: #FF6B35;
+  --ant-primary-color-hover: #FF9F7F;
+  --ant-primary-color-active: #E55A25;
+  --ant-primary-color-outline: rgba(255, 107, 53, 0.2);
+
+  // Brand Colors
+  --primary-orange: #FF6B35;
+  --primary-blue: #004E89;
+  --primary-teal: #1A7FA0;
+
+  --secondary-light-blue: #4A90A4;
+  --secondary-peach: #FF9F7F;
+  --secondary-navy: #003459;
+
+  --accent-warm: #FFB84D;
+  --accent-cool: #70C1B3;
+
+  // Inverted Neutrals
+  --neutral-white: #121212;
+  --neutral-light: #1E1E1E;
+  --neutral-gray-100: #141414;
+  --neutral-gray-200: #262626;
+  --neutral-gray-300: #333333;
+  --neutral-gray-400: #495057;
+  --neutral-gray-500: #6C757D;
+  --neutral-gray-600: #ADB5BD;
+  --neutral-gray-700: #CED4DA;
+  --neutral-gray-800: #E9ECEF;
+  --neutral-gray-900: #F6F6F6;
+  --neutral-dark: #FFFFFF;
+
+  // Semantic Colors
+  --success: #28A745;
+  --warning: #FFC107;
+  --error: #DC3545;
+  --info: var(--primary-teal);
+
+  // Shadows
+  --shadow-sm: 0 2px 6px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.6);
+  --shadow-lg: 0 12px 24px rgba(0, 0, 0, 0.75);
+  --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.85);
+
+  --scrollbar-track: #2a2a2a;
+}
+
+.contact-button button.contact-btn,
+.mobile-nav .mobile-contact-btn,
+.version-tag,
+.get-started-btn,
+.docs-btn,
+.contact-btn,
+::selection {
+  color: #FFFFFF !important;
+}
+
+.mordo-title {
+  color: var(--neutral-dark);
+}
+
+/* Contact section: match the row-features background and use white text */
+.contact-section {
+  background-color: var(--neutral-light) !important;
+}
+
+.contact-heading,
+.contact-description {
+  color: #FFFFFF !important;
+}
