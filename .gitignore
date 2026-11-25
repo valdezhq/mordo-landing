@@ -1,5 +1,14 @@
 # See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
 
+# Environment variables and local test files
+.env
+.env.*
+!.env.example
+
+# Lambda build artifacts
+/lambda/**/node_modules
+/lambda/**/function.zip
+
 # Compiled output
 /dist
 /tmp
