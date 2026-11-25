@@ -20,7 +20,10 @@ import {
   LockOutline,
   KeyOutline,
   DatabaseOutline,
-  ClusterOutline
+  ClusterOutline,
+  TeamOutline,
+  FileSearchOutline,
+  ControlOutline
 } from '@ant-design/icons-angular/icons';
 
 registerLocaleData(pt);
@@ -54,7 +57,10 @@ export const appConfig: ApplicationConfig = {
       LockOutline,
       KeyOutline,
       DatabaseOutline,
-      ClusterOutline
+      ClusterOutline,
+      TeamOutline,
+      FileSearchOutline,
+      ControlOutline
     ])
   ],
 };
