@@ -127,5 +127,54 @@
       "messageRequired": "Por favor, escreva sua mensagem",
       "emailInvalid": "Por favor, informe um email válido"
     }
+  },
+  "changelog": {
+    "title": "Novidades",
+    "description": "Acompanhe as novidades do Mordô.",
+    "category": {
+      "added": "Added",
+      "changed": "Changed",
+      "fixed": "Fixed",
+      "removed": "Removed"
+    },
+    "v1_0_1": {
+      "added1": "",
+      "added2": "",
+      "added3": "",
+      "added4": "",
+      "added5": "",
+      "changed1": "",
+      "changed2": "",
+      "changed3": "",
+      "removed1": "",
+      "fixed1": "",
+      "fixed2": "",
+      "fixed3": "",
+      "fixed4": "",
+      "fixed5": "",
+      "fixed6": ""
+    },
+    "v1_0_0": {
+      "added1": "",
+      "added2": "",
+      "added3": "",
+      "added4": "",
+      "added5": "",
+      "added6": "",
+      "added7": "",
+      "added8": "",
+      "added9": "",
+      "added10": "",
+      "added11": "",
+      "added12": "",
+      "added13": "",
+      "added14": "",
+      "changed1": "",
+      "changed2": "",
+      "changed3": "",
+      "changed4": "",
+      "changed5": "",
+      "removed1": ""
+    }
   }
 }
